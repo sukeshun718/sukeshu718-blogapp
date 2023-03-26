@@ -28,6 +28,9 @@
   line-height: 40px;
   font-size: 22px;
 }
+.header_pageTitle a {
+  color: white;
+}
 .header_avatar {
   width: 40px;
   height: 40px;
