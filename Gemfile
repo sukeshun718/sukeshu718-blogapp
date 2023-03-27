@@ -29,7 +29,6 @@ gem 'faker'
 gem 'hamlit'
 gem 'devise'
 gem 'aws-sdk-s3' , require: false
-gem 'psych', '~> 3.1'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
