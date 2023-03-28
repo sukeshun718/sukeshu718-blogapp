@@ -6,8 +6,8 @@
 @import 'buttons';
 @import 'form';
 @import 'flash';
-@import 'common';
-@import 'profile';
+@import 'app/assets/stylesheets/common.scss';
+@import 'app/assets/stylesheets/profile.scss';
 
 html {
   word-spacing: 1px;
