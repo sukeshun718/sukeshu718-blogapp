@@ -3,7 +3,7 @@
     "description": "This is blogapp",
     "keywords": [],
     "website": "",
-    "repository": "https://github.com/sukeshun718/sukeshu718-blogapp.git",
+    "repository": "https://github.com/sukeshun718/sukeshu718-blogapp",
     "env": {},
     "addons": [
       "heroku-postgresql:hobby-dev"
