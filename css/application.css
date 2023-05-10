@@ -1,4 +1,5 @@
 @import 'trix/dist/trix.css';
+@import 'trix/dist/trix.css';
 .header {
   display: flex;
   justify-content: space-between;
@@ -50,8 +51,14 @@
   text-align: center;
   cursor: pointer;
 }
+.tabs_item a {
+  display: block;
+}
 .tabs_item.active {
   background-color: #8AC542;
+  color: white;
+}
+.tabs_item.active a {
   color: white;
 }
 .tabs_item:hover {
@@ -200,13 +207,16 @@ label {
   font-size: 12px;
 }
 
-textarea {
+textarea, trix-editor {
   width: 100%;
   margin: 8px 0px;
   padding: 8px 8px;
   min-height: 440px;
   resize: vertical;
   border: 1px solid #EBEBEB;
+}
+textarea.sm, trix-editor.sm {
+  min-height: 160px;
 }
 
 .flash {
@@ -402,4 +412,8 @@ a {
 }
 .float_btn i {
   margin-top: 22px;
+}
+
+.hidden {
+  display: none;
 }
